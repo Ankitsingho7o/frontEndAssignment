@@ -1,0 +1,15 @@
+.react-chatbot-kit-chat-container {
+    margin: auto;
+    /* border: 2.5px solid black; */
+    border-radius: 5px;
+}
+
+.react-chatbot-kit-chat-message-container {
+    
+   
+    overflow-x: auto;
+}
+
+    .react-chatbot-kit-chat-header {
+        font-size: 1rem;
+    }
