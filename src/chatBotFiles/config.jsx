@@ -7,7 +7,7 @@ import CountDownComponent from "../chatBotWidgets/CountDownComponent";
 const botName = "Ankit's Bot"
 const config = {
   initialMessages: [
-    createChatBotMessage(`Hello world`, {
+    createChatBotMessage(`Enter into Student Info System`, {
       widget: "GotIt",
     }),
   ],

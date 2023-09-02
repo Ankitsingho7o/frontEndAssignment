@@ -11,7 +11,6 @@ const AgeWidgetComp = (props) => {
   }
   function handelChange(e) {
     dispatch(addUserAge(e.target.value))
-
     setVisible(false)
     props?.actions?.clientMessage(`${e.target.value}`)
     props?.actions?.chatBotMessage("Thanks for filling the information, The bot will exit in 5 Sec", "CountDown")
